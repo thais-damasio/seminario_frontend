@@ -3,7 +3,9 @@
     <!-- Navbar do sistema -->
     <nav class="uk-navbar-container uk-margin" uk-navbar>
       <div class="uk-navbar-center">
-        <a class="uk-navbar-item uk-logo" href="#">AllCountry</a>
+        <a class="uk-navbar-item uk-logo" href="#">
+          AllCountry
+        </a>
       </div>
     </nav>
     <!--  -->
@@ -54,8 +56,8 @@
         </li>
       </ul>
       <!-- Lista dos resultados de países -->
-      <ul class="js-filter uk-child-width-1-2@s uk-child-width-1-4@m uk-grid uk-text-center" uk-scrollspy="target: > li; cls: uk-animation-fade; delay: 100" uk-grid>
-        <li v-for="(pais, index) in paisesComFiltro" :class="pais.region" v-bind:key="index">
+      <ul class="js-filter uk-child-width-1-2@s uk-child-width-1-4@m uk-grid uk-text-center" uk-grid>
+        <li v-for="(pais) in paisesComFiltro" :class="pais.region">
           <!-- Card com o país -->
           <div>
               <div class="uk-card uk-card-hover uk-card-default">
@@ -85,12 +87,12 @@
                       <!--  -->
                   </div>
                   <div class="uk-card-footer">
-                      <a  v-on:click="abrirModal(pais)" uk-icon="icon: info" href="#modal-full" uk-toggle class="uk-button uk-button-text">Details&nbsp;&nbsp;</a>
+                      <a v-on:click="abrirModal(pais)" uk-icon="icon: info" href="#modal-full" uk-toggle class="uk-button uk-button-text">Details&nbsp;&nbsp;</a>
                   </div>
                   <!--  -->
               </div>
           </div>
-        <!--  -->
+          <!--  -->
         </li>
       </ul>
       <!--  -->
@@ -158,7 +160,10 @@ export default {
           this.paises = paises; 
           this.isLoading = false;
         },
-        err => console.log(err)
+        err => {
+          console.log(err);
+          this.isLoading = false;
+        }
       );
   },
   methods: {

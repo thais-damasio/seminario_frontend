@@ -100,5 +100,13 @@
   "directories": {
     "test": "test"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thais-Damasio/seminario_frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Thais-Damasio/seminario_frontend/issues"
+  },
+  "homepage": "https://github.com/Thais-Damasio/seminario_frontend#readme"
 }
