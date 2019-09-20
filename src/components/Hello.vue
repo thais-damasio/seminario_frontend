@@ -4,7 +4,7 @@
     <nav class="uk-navbar-container uk-margin" uk-navbar>
       <div class="uk-navbar-center">
         <a class="uk-navbar-item uk-logo" href="#">
-          AllCountry
+          <img width="100" src="../assets/img/logo.png">
         </a>
       </div>
     </nav>
