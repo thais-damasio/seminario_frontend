@@ -547,7 +547,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "href": "#"
     }
-  }, [_vm._v("\n        AllCountry\n      ")])])])
+  }, [_c('img', {
+    attrs: {
+      "width": "100",
+      "src": "https://i.ibb.co/84DytQG/logo.png"
+    }
+  })])])])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('li', {
     staticClass: "uk-active",
@@ -658,4 +663,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[11]);
-//# sourceMappingURL=app.2686aadd700c1a861c5d.js.map
+//# sourceMappingURL=app.d4538ce280c84092ed47.js.map
