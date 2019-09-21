@@ -29,4 +29,4 @@ Para o desenvolvimento deste projeto contamos com o auxílio da produção do [z
 
 > Link do projeto de base: [zeroby0/vue-uikit-webpack-vuecli3](https://github.com/zeroby0/vue-uikit-webpack-vuecli3).
 
-[logo]: <img src="https://img.icons8.com/ultraviolet/40/000000/flag-2.png"> "Logo"
+[logo]: https://img.icons8.com/ultraviolet/40/000000/flag-2.png "Logo"
